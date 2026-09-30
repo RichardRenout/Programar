@@ -6,6 +6,6 @@ print('\n Solicitando Dados')
 
 n1 = int(input('Digite um numero: '))
 
-for i in range(n1,20,-1):
+for i in range(n1,1,-1):
     print(i)
     time.sleep(1)
