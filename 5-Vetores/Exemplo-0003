@@ -1,0 +1,11 @@
+import os
+os.system('cls')
+
+vetor_notas = []
+
+for i in range (4):
+    nota = str(input('Digite um nome: '))
+    vetor_notas.append(nota)
+
+for i in range(4):
+    print(f'Nota: {vetor_notas[i]}')
